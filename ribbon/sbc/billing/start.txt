@@ -1,4 +1,4 @@
- 1. Record Type                                  : START
+  1. Record Type                                  : START
   2. Gateway Name                                 : SBCNAG
   3. Accounting ID                                : 0x0001E46B00000001
   4. Start Time (system ticks)                    : 50743
