@@ -1,0 +1,377 @@
+ 1. Record Type                                  : START
+  2. Gateway Name                                 : SBCNAG
+  3. Accounting ID                                : 0x0001E46B00000001
+  4. Start Time (system ticks)                    : 50743
+  5. Node Time Zone                               : GMT-05:00-Eastern
+  6. Start Time (MM/DD/YYYY)                      : 04/26/2023
+  7. Start Time (HH/MM/SS.s)                      : 08:50:00.8
+  8. Ticks from Setup Msg to Policy Response      : 12
+  9. Ticks from Setup Msg to Alert/Proc/Prog      : 16
+ 10. Ticks from Setup Msg to Service Est          : 19
+ 11. Service Delivered                            : VoIP
+ 12. Call Direction                               : IP-TO-IP
+ 13. Service Provider                             : DEFAULT
+ 14. Transit Network Selection Code (TNS)         :
+ 15. Calling Number                               : 7777700000
+ 16. Called Number                                : 9898989898
+ 17. Extra Called Address Digits                  :
+ 18. Number of Called Num Translations            : 0
+ 19. Called Number Before Translation #1          :
+ 20. Translation Type #1                          : 0
+ 21. Called Number Before Translation #2          :
+ 22. Translation Type #2                          : 0
+ 23. Billing Number                               : 7777700000
+ 24. Route Label                                  : RL_7867
+ 25. Route Attempt Number                         : 1
+ 26. Route Selected                               : SBCNAG:TG_OUT_7867
+ 27. Egress Local Signaling IP Address            : 10.52.34.169
+ 28. Egress Remote Signaling IP Address           : 10.54.81.85
+ 29. Ingress Trunk Group Name                     : TG_IN_7867
+ 30. Ingress PSTN Circuit End Point               :
+ 31. Ingress IP Circuit End Point                 : 10.52.35.169:1024/10.54.81.77:6016
+ 32. Egress PSTN Circuit End Point                :
+ 33. Egress IP Circuit End Point                  : 10.52.34.169:1024/10.54.81.85:6000
+ 34. Originating Line Information (OLIP)          : 0
+ 35. Jurisdiction Information Parameter (JIP)     :
+ 36. Carrier Code                                 :
+ 37. Call Group ID                                : 0x00800000
+ 38. Ticks from Setup Msg to Rx of EXM            :
+ 39. Ticks from Setup Msg to Generation of EXM    :
+ 40. Calling Party Nature of Address              : 2
+ 41. Called Party Nature of Address               : 2
+ 42. Ingress Protocol Variant Specific Data       :
+     42.1  Protocol Variant                            : "SIP
+     42.2  Call ID                                     :  1-1298322@10.54.81.77
+     42.3  From Field                                  :  %227777700000%22<sip:7777700000@10.54.81.77:43411>;tag=1298322SIPpTag001
+     42.4  To Field                                    :  %229898989898%22<sip:9898989898@10.52.35.169:5060>;tag=gK108000fa
+     42.5  Redirect Attempt Count                      :  0
+     42.6  Reserved                                    : 
+     42.7  Display name of SIP URI PAI header          : 
+     42.8  User Parameter of P-K-CallForwardingLast Header : 
+     42.9  Userinfo and Hostname of SIP Request URI Header  :  sip:9898989898@10.52.35.169:5060
+     42.10 Userinfo and Hostname of SIP URI PAI header   : 
+     42.11 Username parameter of the Proxy-Authorization header  : 
+     42.12 Displayname of Tel URI PAI header           : 
+     42.13 INVITE Contact header                       :  sip:7777700000@10.54.81.77:43411
+     42.14 200OK-INVITE Contact header                 :  sip:9898989898@10.52.35.169:5060
+     42.15 Redirecting Reason Parameter of P-K-CallForwardOriginal  header : 
+     42.16 Userinfo of Tel URI PAI header              : 
+     42.17 Contractor Number value of P-Sig-Info header : 
+     42.18 ACK Received for 200 OK                     :  1
+     42.19 Status Msg for Call Release                 : 
+     42.20 Reason Header value Q850                    : 
+     42.21 NAPT Status of the SIP SG for Signaling     :  0
+     42.22 NAPT Status of the SIP SG for Media         :  0
+     42.23 Original Peer SDP Address for NAPT          : 
+     42.24 UUI Sending Count                           :  0
+     42.25 UUI Receiving Count                         :  0
+     42.26 Service Information                         : 
+     42.27 ICID                                        : 
+     42.28 Generated Host                              : 
+     42.29 Originating IOI                             : 
+     42.30 Terminating IOI                             : 
+     42.31 P-K-Adn Header Number                       : 
+     42.32 IP Address for FQDN calls or IP address of route header selected as next hop: 
+     42.33 Transport Protocol                          :  1
+     42.34 Direct Media Call                           :  0
+     42.35 Inbound SMM Indicator                       :  0
+     42.36 Outbound SMM Indicator                      :  0
+     42.37 Originating Charge Area                     : 
+     42.38 Terminating Charge Area                     : 
+     42.39 Feature Tag in Contact Header               : 
+     42.40 Feature Tag in Accept-Contact Header        : 
+     42.41 P-Charging-Function-Address                 : 
+     42.42 P-Called-Party-Id                           : 
+     42.43 P-Visited-Network-Id                        : 
+     42.44 Direct Media with NAPT Call                 :  0
+     42.45 IPTG Ingress SMM Profile Name               : 
+     42.46 IPTG Egress SMM Profile Name                : 
+     42.47 P-Access-Network-Information header         : 
+     42.48 IMS Node functionality                      :  7
+     42.49 IMS node role                               :  1
+     42.50 IMS Use PcfaCcf                             : 
+     42.51 P-CSCF calling party                        : 
+     42.52 P-CSCF called party                         : 
+     42.53 ICE used on Call                            :  0
+     42.54 ICE Complete - Time-stamp when ICE Completes : 
+     42.55 Transit IOI List                            : 
+     42.56 Loop Back Ravel Call                        :  0
+     42.57 Optimal Media Routing Applied               :  0
+     42.58 IMS PAI Service Header                      : 
+     42.59 Feature-Caps header                         : 
+     42.60 Called Asserted Identity                    : 
+     42.61 NNI-Type                                    :  0
+     42.62 Neighbour Address                           : 
+     42.63 Relationship mode                           : 
+     42.64 Session direction                           : 
+     42.65 SMM CDR Field 1                             : 
+     42.66 SMM CDR Field 2                             : 
+     42.67 SMM CDR Field 3                             : 
+     42.68 SMM CDR Field 4                             : 
+     42.69 SMM CDR Field 5                             : 
+     42.70 Origination ID                              : 
+     42.71 STI Service Type                            : 
+     42.72 STI Service Status                          : 
+     42.73 STI Reason Code                             : 
+     42.74 Global Ingress SMM Profile Name             : 
+     42.75 Global Egress SMM Profile Name              : 
+     42.76 Ac Ingress SMM Profile Name                 : 
+     42.77 Ac Egress SMM Profile Name                  : 
+     42.78 Zone Ingress SMM Profile Name               : 
+     42.79 Zone Egress SMM Profile Name                : 
+     42.80 STI Display Name                            : 
+     42.81 AniDnis Loop Detection Fail                 :  0
+     42.82 P-K-Info                                    : 
+     42.83 Attestation Ind                             : 
+     42.84 STI RPH Service Type                        : 
+     42.85 STI RPH Service Status                      : 
+     42.86 STI RPH Reason Code                         : 
+     42.87 STI RCD Service Type                        :  0
+     42.88 STI RCD Service Status                      :  0
+     42.89 STI RCD Reason Code                         :  "
+ 43. Ingress Signaling Type                       : 12
+ 44. Egress Signaling Type                        : 12
+ 45. Ingress Far End Switch Type                  : 0
+ 46. Egress Far End Switch Type                   : 1
+ 47. Carrier Code of Carrier who Owns iTG Far End :
+ 48. Carrier Code of Carrier who Owns eTG Far End :
+ 49. Calling Party Category                       : 0x0a
+ 50. Dialed Number                                : 9898989898
+ 51. Carrier Selection Information                : 1
+ 52. Called Number Numbering Plan                 : 1
+ 53. Generic Address Parameter                    :
+ 54. Egress Trunk Group Name                      : TG_OUT_7867
+ 55. Egress Protocol Variant Specific Data        :
+     55.1  Protocol Variant                            : "SIP
+     55.2  Call ID                                     :  536870912_16625975@10.52.34.169
+     55.3  From Field                                  :  %227777700000%22<sip:7777700000;phone-context=private@10.52.34.169:5060;user=phone>;tag=gK1000017a
+     55.4  To Field                                    :  <sip:9898989898;phone-context=private@10.54.81.85:43323;user=phone>;tag=1298321SIPpTag011
+     55.5  Redirect Attempt Count                      :  0
+     55.6  Reserved                                    : 
+     55.7  Display name of SIP URI PAI header          : 
+     55.8  User Parameter of P-K-CallForwardingLast Header : 
+     55.9  Userinfo and Hostname of SIP Request URI Header  :  sip:9898989898;phone-context=private@10.54.81.85:43323;user=phone
+     55.10 Userinfo and Hostname of SIP URI PAI header   : 
+     55.11 Username parameter of the Proxy-Authorization header  : 
+     55.12 Displayname of Tel URI PAI header           : 
+     55.13 INVITE Contact header                       :  sip:7777700000@10.52.34.169:5060
+     55.14 200OK-INVITE Contact header                 :  sip:9898989898@10.54.81.85:43323;transport=UDP
+     55.15 Redirecting Reason Parameter of P-K-CallForwardOriginal  header : 
+     55.16 Userinfo of Tel URI PAI header              : 
+     55.17 Contractor Number value of P-Sig-Info header : 
+     55.18 ACK Received for 200 OK                     : 
+     55.19 Status Msg for Call Release                 : 
+     55.20 Reason Header value Q850                    : 
+     55.21 NAPT Status of the SIP SG for Signaling     :  0
+     55.22 NAPT Status of the SIP SG for Media         :  0
+     55.23 Original Peer SDP Address for NAPT          : 
+     55.24 UUI Sending Count                           :  0
+     55.25 UUI Receiving Count                         :  0
+     55.26 Service Information                         : 
+     55.27 ICID                                        : 
+     55.28 Generated Host                              : 
+     55.29 Originating IOI                             : 
+     55.30 Terminating IOI                             : 
+     55.31 P-K-Adn Header Number                       : 
+     55.32 IP Address for FQDN calls or IP address of route header selected as next hop: 
+     55.33 Transport Protocol                          :  1
+     55.34 Direct Media Call                           :  0
+     55.35 Inbound SMM Indicator                       :  0
+     55.36 Outbound SMM Indicator                      :  0
+     55.37 Originating Charge Area                     : 
+     55.38 Terminating Charge Area                     : 
+     55.39 Feature Tag in Contact Header               : 
+     55.40 Feature Tag in Accept-Contact Header        : 
+     55.41 P-Charging-Function-Address                 : 
+     55.42 P-Called-Party-Id                           : 
+     55.43 P-Visited-Network-Id                        : 
+     55.44 Direct Media with NAPT Call                 :  0
+     55.45 IPTG Ingress SMM Profile Name               : 
+     55.46 IPTG Egress SMM Profile Name                : 
+     55.47 P-Access-Network-Information header         : 
+     55.48 IMS Node functionality                      :  7
+     55.49 IMS node role                               :  1
+     55.50 IMS Use PcfaCcf                             : 
+     55.51 P-CSCF calling party                        : 
+     55.52 P-CSCF called party                         : 
+     55.53 ICE used on Call                            :  0
+     55.54 ICE Complete - Time-stamp when ICE Completes : 
+     55.55 Transit IOI List                            : 
+     55.56 Loop Back Ravel Call                        :  0
+     55.57 Optimal Media Routing Applied               :  0
+     55.58 IMS PAI Service Header                      : 
+     55.59 Feature-Caps header                         : 
+     55.60 Called Asserted Identity                    : 
+     55.61 NNI-Type                                    :  0
+     55.62 Neighbour Address                           : 
+     55.63 Relationship mode                           : 
+     55.64 Session direction                           : 
+     55.65 SMM CDR Field 1                             : 
+     55.66 SMM CDR Field 2                             : 
+     55.67 SMM CDR Field 3                             : 
+     55.68 SMM CDR Field 4                             : 
+     55.69 SMM CDR Field 5                             : 
+     55.70 Origination ID                              : 
+     55.71 STI Service Type                            : 
+     55.72 STI Service Status                          : 
+     55.73 STI Reason Code                             : 
+     55.74 Global Ingress SMM Profile Name             : 
+     55.75 Global Egress SMM Profile Name              : 
+     55.76 Ac Ingress SMM Profile Name                 : 
+     55.77 Ac Egress SMM Profile Name                  : 
+     55.78 Zone Ingress SMM Profile Name               : 
+     55.79 Zone Egress SMM Profile Name                : 
+     55.80 STI Display Name                            : 
+     55.81 AniDnis Loop Detection Fail                 :  0
+     55.82 P-K-Info                                    : 
+     55.83 Attestation Ind                             : 
+     55.84 STI RPH Service Type                        : 
+     55.85 STI RPH Service Status                      : 
+     55.86 STI RPH Reason Code                         : 
+     55.87 STI RCD Service Type                        :  0
+     55.88 STI RCD Service Status                      :  0
+     55.89 STI RCD Reason Code                         :  "
+ 56. Incoming Calling Number                      : 7777700000
+ 57. AMA Call Type                                : 110
+ 58. Message Billing Indicator (MBI)              :
+ 59. LATA                                         :
+ 60. Route Index Used                             : 1
+ 61. Calling Party Presentation Restriction       : 1
+ 62. Incoming ISUP Charge Number                  :
+ 63. Incoming ISUP Nature Of Address              :
+ 64. Dialed Number Nature of Address              : 2
+ 65. Global Call ID (GCID)                        : 0x20000000
+ 66. Charge Flag                                  : 0
+ 67. AMA slp ID                                   :
+ 68. AMA BAF Module                               :
+ 69. AMA Set Hex AB Indication                    :
+ 70. Service Feature ID                           :
+ 71. FE Parameter                                 :
+ 72. Satellite Indicator                          : 0
+ 73. PSX Billing Info                             :
+ 74. Originating TDM Trunk Group Type             :
+ 75. Terminating TDM Trunk Group Type             :
+ 76. Ingress Trunk Member Number                  : 1
+ 77. Egress Trunk Group ID                        :
+ 78. Egress Switch ID                             :
+ 79. Ingress Local ATM Address                    :
+ 80. Ingress Remote ATM Address                   :
+ 81. Egress Local ATM Address                     :
+ 82. Egress Remote ATM Address                    :
+ 83. PSX Call Type                                : 6
+ 84. Outgoing Route Trunk Group ID                :
+ 85. Outgoing Route Message ID                    :
+ 86. Incoming Route ID                            :
+ 87. Calling Name                                 : "7777700000"
+ 88. Calling Name Type                            : 2
+ 89. Incoming Calling Party Numbering Plan        : 1
+ 90. Outgoing Calling Party Numbering Plan        : 1
+ 91. Calling Party Business Group ID              : 1
+ 92. Called Party Business Group ID               : 1
+ 93. Calling Party PPDN                           :
+ 94. Ticks from Setup Msg to Last Route Attempt   : 13
+ 95. Billing Number Nature of Address             : 2
+ 96. Incoming Calling Number Nature of Address    : 2
+ 97. Egress Trunk Member Number                   : 1
+ 98. Selected Route Type                          : 7
+ 99. Cumulative Route Index                       : 1
+100. ISDN PRI Calling Party Subaddress            :
+101. Outgoing Trunk Group Number in EXM           :
+102. Ingress Local Signaling IP Address           : 10.52.35.169
+103. Ingress Remote Signaling IP Address          : 10.54.81.77
+104. Record Sequence Number                       : 1
+105. Transmission Medium Requirement              : 16
+106. Information Transfer Rate                    : 8
+107. USI User Info Layer 1                        :
+108. Unrecognized Raw ISUP Calling Party Category :
+109. FSD: Egress Release Link Trunking            :
+110. FSD: Two B-Channel Transfer                  :
+111. Calling Party Business Unit                  :
+112. Called Party Business Unit                   :
+113. FSD: Redirecting                             :
+114. FSD: Ingress Release Link Trunking           :
+115. PSX ID                                       : 1
+116. PSX Congestion Level                         :
+117. PSX Processing Time (milliseconds)           : 110
+118. Script Name                                  : TANDEM
+119. Ingress External Accounting Data             :
+120. Egress External Accounting Data              :
+121. Answer Supervision Type                      :
+122. Ingress Sip Refer or Sip Replaces Feature Specific Data:
+123. Egress Sip Refer or Sip Replaces Feature Specific Data:
+124. Network Transfers Feature Specific Data      :
+125. Call Condition                               : 13
+126. Toll Indicator                               : 1
+127. Generic Number ( Number )                    :
+128. Generic Number Presentation Restriction Indicator:
+129. Generic Number Numbering Plan                :
+130. Generic Number Nature of Address             :
+131. Generic Number Type                          :
+132. Originating Trunk Type                       :
+133. Terminating Trunk Type                       :
+134. VPN Calling Public Presence Number           :
+135. VPN Calling Private Presence Number          :
+136. External Furnish Charging Info               :
+137. Announcement Id                              :
+138. Network Data - Source Information            :
+139. Network Data - Partition ID                  :
+140. Network Data - Network ID                    :
+141. Network Data - NCOS                          :
+142. ISDN access Indicator                        : 0
+143. Network Call Reference - Call Identity       :
+144. Network Call Reference - Signaling Point Code:
+145. Ingress MIME Protocol Variant Specific Data  :
+146. Egress MIME Protocol Variant Specific Data   :
+147. Video Data - Video Bandwidth, Video Call Duration,Ingress/Egress IP video Endpoint:
+148. SVS Customer                                 :
+149. SVS Vendor - Deprecated in 7.2.2 as part of Pcr1624:
+150. Remote GSX Billing Indicator (PCR1216 - GSX 6.4 for KDDI special V3): 0
+151. Call To Test PSX                             :
+152. Psx Overlap Route Requests                   :
+153. Call Setup Delay                             :
+    153.1  Request Latency (msec)                      : "172
+    153.2  Downstream Latency (msec)                   :  4
+    153.3  Response Latency (msec)                     :  4
+    153.4  Upstream Latency (msec)                     :  180"
+154. Overload Status                              : 0
+155. reserved                                     :
+156. reserved                                     :
+157. MLPP Precedence Level                        :
+158. reserved                                     :
+159. reserved                                     :
+160. reserved                                     :
+161. reserved                                     :
+162. reserved                                     :
+163. reserved                                     :
+164. reserved                                     :
+165. reserved                                     :
+166. Global Charge Reference                      :
+167. reserved for IP Call Limit at ingress SIP Peer:
+168. reserved for IP Call Limit at ingress IPTG   :
+169. reserved for IP BW Limit at ingress IPTG     :
+170. reserved for IP Call Limit at egress SIP Peer:
+171. reserved for IP Call Limit at egress IPTG    :
+172. reserved for IP BW Limit at egress IPTG      :
+173. reserved for PSX Name                        : PSXSWE2
+174. reserved for No of PSX tried                 :
+175. Final route label                            :
+176. MTA Information                              :
+177. Access Network Charging Information          :
+178. Access Transfer Specific Data                :
+179. Emergency Indicator                          : 0
+180. UE Roaming Status                            : 0
+181. Ingress Zone Name                            : ZONE_IN_7867
+182. Egress Zone Name                             : ZONE_OUT_7867
+183. Ingress Zone Id                              : 1001
+184. Egress Zone Id                               : 1002
+185. Ingress IpPrefix TgName                      :
+186. Parent Call GCID                             : 0x00000000
+187. Signaling Only Mode                          :
+188. Call Established Time                        : 04/26/2023 08:50:01.0
+189. Ingress Trunk Group for PSX Routing          : TG_IN_7867
+190. Start Time (Local)  (mm/dd/yyyy hh:mm:ss.s)  : 04/26/2023 04:50:00.8
+191. Call Established Time (Local)  (mm/dd/yyyy hh:mm:ss.s): 04/26/2023 04:50:01.0
+192. Global Unique ID (GUID)                      :
+193. nodeName                                     :
+194. podName                                      :
+195. containerID                                  :
